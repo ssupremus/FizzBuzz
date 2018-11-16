@@ -1,5 +1,8 @@
 # FizzBuzz
 
+Usage: enter a shell command line:
+ruby fizzbuzz.rb
+
 Count from 1 to N
 1. print number, BUT
 2. if n divisible by 3, print "Fizz" instead
