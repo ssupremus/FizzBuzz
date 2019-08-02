@@ -1,7 +1,7 @@
 # FizzBuzz
 
 Usage: enter a shell command line:
-ruby fizzbuzz.rb
+ruby fizzbuzz.rb [positive integer]
 
 Count from 1 to N
 1. print number, BUT
