@@ -1,8 +1,8 @@
-def fizzbuzz(n, d = {3 => "Fizz", 5 => "Buzz", 7 => "Quux"})
-  (1..n).each do |key|
-    s = ""
-    d.each { |k, v| s += v if key % k == 0  }
-    puts "#{key} #{s}".strip
+def fizzbuzz(max, hash = {3 => "Fizz", 5 => "Buzz", 7 => "Quux"})
+  (1..max).each do |number|
+    word = ""
+    hash.each { |key, value| word += value if number % key == 0  }
+    puts "#{number} #{word}".strip
   end
 end
 
